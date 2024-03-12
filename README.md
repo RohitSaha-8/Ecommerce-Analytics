@@ -1,4 +1,4 @@
-# E-Commerce Analytics
+# E-Commerce Sales Analytics with Spark: Unveiling Insights from Daily and Weekly Transactions
 
 ### Description
 
@@ -8,7 +8,7 @@ Use Spark features for data analysis to derive valuable insights:
 Domain: E-commerce
 Analysis to be done: Exploratory analysis to determine actionable insights
 
-#### Dataset Description:
+#### Dataset Overview:
 Id,
 order_status,
 order_products_value,
@@ -24,6 +24,16 @@ product_name_lenght,
 product_description_lenght,
 product_photos_qty,
 review_score
+
+#### Methodology:
+Data Loading and Preprocessing:
+- Load dataset into FTP location.
+- Copy dataset from FTP location to HDFS.
+- Load the dataset into Spark DataFrame from HDFS.
+- Perform data cleansing and preprocessing to handle missing values or outliers.
+- Aggregate sales and order metrics using Spark SQL queries.
+- Calculate average performance metrics and derive insights.
+- Utilize Spark's visualization capabilities to present findings effectively.
 
 #### Insights on Historical Data:
 
@@ -82,7 +92,10 @@ c . Total freight charges
 
 d. Distribution of freight charges in each city
 
-### Architecture:
+#### Architecture:
 
 ![image](https://github.com/RohitSaha-8/Ecommerce-Analytics/assets/63776719/5a36f7d8-d4fc-477c-b3db-08bc40c52b4c)
+
+#### Conclusion:
+By harnessing the power of Spark for data analysis, this project aims to equip the e-commerce company with actionable insights, enabling strategic decision-making and fostering a deeper understanding of sales dynamics across diverse locations. The outcomes will empower the company to enhance operational efficiency, refine marketing strategies, and ultimately improve customer satisfaction.
 
