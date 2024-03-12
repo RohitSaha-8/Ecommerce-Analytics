@@ -81,3 +81,8 @@ Average order delivery time
 c . Total freight charges
 
 d. Distribution of freight charges in each city
+
+### Architecture:
+
+![image](https://github.com/RohitSaha-8/Ecommerce-Analytics/assets/63776719/5a36f7d8-d4fc-477c-b3db-08bc40c52b4c)
+
